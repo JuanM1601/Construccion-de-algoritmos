@@ -1,12 +1,12 @@
 class Fecha:
-
-    """-----------------------------
-    Atributos
-    -----------------------------"""
-    dia = ""
-    mes = ""
-    anio = ""
-
+    #Aqui va todo el codigo de fecha
+    '''----------------------------------------------------------------
+    # Atributos
+    ----------------------------------------------------------------'''
+    dia = 0
+    mes = 0
+    anio = 0
+    
     def ConsultarDia(self):
         return self.dia
     
@@ -15,4 +15,3 @@ class Fecha:
     
     def ConsultarAnio(self):
         return self.anio
-    
